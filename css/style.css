@@ -1,0 +1,423 @@
+  @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
+
+  /*---GENERAL-----------------------------------------------------------------------------------------------------------------------------------*/
+
+  * {
+      border: border-box;
+  }
+
+  body {
+      background: #ffffff;
+      font-family: 'Nunito', sans-serif;
+      overflow-x: hidden;
+      padding-top: 30px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h5 {
+      font-family: 'Muli', sans-serif;
+      font-weight: bold;
+  }
+
+  h1 {
+      width: 10em;
+  }
+
+  h2 {
+      color: #353535;
+      font-size: 2em;
+      padding-bottom: 10px;
+  }
+
+  h3 {
+      font-size: 1.5em;
+  }
+
+
+  section {
+      position: relative;
+      padding: 100px 0;
+  }
+
+  p {
+      color: #757575;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 24px;
+  }
+
+  ul {
+      list-style: none;
+  }
+
+  .container {
+      max-width: 1170px;
+  }
+
+  .card {
+      border: none;
+  }
+
+  .btn-header {
+      border-radius: 50px;
+  }
+
+  .btn {
+      border-radius: 50px;
+  }
+
+
+  /*---HOME-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+  .navbar {
+      border-top: 5px solid #29ca8e;
+      margin: 0;
+      padding: 0;
+      box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-brand:hover {
+      text-decoration: none !important;
+      color: #000;
+  }
+
+  /*
+  #home {
+      padding: 0;
+
+  }
+*/
+
+  .first-carousel {
+      height: 650px;
+      background-position: center top;
+      background-size: cover;
+
+  }
+
+  .carousel-caption {
+      margin-bottom: 10rem;
+  }
+
+  .carousel-image-1 {
+      background-color: rgba(0, 0, 0, .4);
+      background-image: url("../images/slider-image1.jpg");
+      background-blend-mode: multiply;
+      background-position: center center;
+  }
+
+  .carousel-image-2 {
+      background-color: rgba(0, 0, 0, .4);
+      background-image: url("../images/slider-image2.jpg");
+      background-blend-mode: multiply;
+  }
+
+  .carousel-image-3 {
+      background-color: rgba(0, 0, 0, .4);
+      background-image: url("../images/slider-image3.jpg");
+      background-blend-mode: multiply;
+  }
+
+
+  .nav-item:hover {
+      background-color: #29ca8e;
+  }
+
+
+  .nav-item:hover a {
+      color: #fff !important;
+      text-decoration: none !important;
+  }
+
+  .nav-item .fa {
+      background: #29ca8e;
+      border-radius: 100%;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: inline-block;
+      color: #fff;
+  }
+
+  .nav-item .phone {
+      padding: 1.3rem;
+  }
+
+  .home-container {
+      border: 1px solid #f0f0f0;
+      padding: 5em 3em;
+  }
+
+  .home-container span {
+      background: #3f51b5;
+      border-radius: 50px;
+      color: #ffffff;
+      font-size: 25px;
+      font-weight: bold;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+  }
+
+
+  /*---ABOUT-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+  .courses .fa {
+      background: #29ca8e;
+      border-radius: 100%;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      display: inline-block;
+      color: #fff;
+  }
+
+  .courses-form {
+      padding: 4em;
+  }
+
+  .courses-form h2 {
+      font-size: 2em;
+      padding-bottom: 10px;
+      color: #fff;
+  }
+
+  .courses-form .form-control {
+      background: transparent;
+      border: 0;
+      border-bottom: 1px solid;
+      border-radius: 0;
+      box-shadow: none;
+      height: 45px;
+      margin: 10px 0;
+  }
+
+  .courses-form .btn {
+      border-radius: 50px;
+      margin: 1em auto;
+      padding: 1em 2em;
+  }
+
+
+  /*---AUTHORS-----------------------------------------------------------------------------------------------------------------------------------*/
+
+  .icon-authors {
+      border-top: 1px solid rgba(0, 0, 0, .125);
+  }
+
+  #authors,
+  #student {
+      background-color: #f9f9f9;
+  }
+
+  .icon-authors a i {
+      background: #ffffff;
+      color: #252020;
+      border-radius: 100px;
+      font-size: 15px;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      text-decoration: none !important;
+      text-align: center;
+      transition: all 0.4s ease-in-out;
+      position: relative;
+      margin: 5px 5px 5px 0;
+  }
+
+  .icon-authors a i:hover {
+      background: #29ca8e;
+      color: #ffffff;
+  }
+
+  /*---COURSES-----------------------------------------------------------------------------------------------------------------------------------*/
+
+  .popular-container {
+      border: 1px solid #f0f0f0;
+      background-color: #f9f9f9;
+      overflow: hidden;
+  }
+
+  .popular-container .card-title:hover {
+      color: #29ca8e;
+  }
+
+  .popular-card-bottom .card-img-top {
+      max-width: 57px;
+  }
+
+  .popular-body {
+      padding: 2em 2em;
+  }
+
+  .popular-card-bottom {
+      border-top: 1px solid rgba(0, 0, 0, .125);
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .popular-carousel-controls span {
+      border-radius: 5px;
+  }
+
+  .popular-carousel-controls span:hover {
+      background-color: #29ca8e !important;
+  }
+
+
+
+  /*---REVIEWS-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+  .carousel-last .row {
+      flex-wrap: nowrap;
+  }
+
+  .carousel-last {
+      transform: translateX(0em);
+  }
+
+  .clicked {
+      transform: translateX(-25em);
+  }
+
+  .clicked2 {
+      transform: translateX(0em);
+  }
+
+  .student-container {
+      flex-wrap: wrap;
+      padding: 4em 3em;
+  }
+
+  .student-container img {
+      width: 60px;
+      height: 60px;
+  }
+
+  .student-container .card-text {
+      font-size: 16px;
+      line-height: 26px;
+  }
+
+
+  .student-rating .fa {
+      color: #29ca8e;
+  }
+
+  .student-rating .fa:hover {
+      color: #000;
+  }
+
+
+  /*---GONTACT-----------------------------------------------------------------------------------------------------------------------------------*/
+
+  #contact {
+      position: relative;
+      min-height: 200px;
+      background-image: url('../images/lights.jpg');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      color: #fff;
+      background-color: rgba(0, 0, 0, .6) !important;
+      background-blend-mode: multiply;
+      background-size: cover;
+  }
+
+
+  #contact .btn:hover {
+      background: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+  }
+
+
+  /*---FOOTER-----------------------------------------------------------------------------------------------------------------------------------*/
+
+  .footer-social a i {
+      color: #29ca8e;
+      font-size: 15px;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      text-decoration: none;
+      text-align: center;
+      transition: all 0.4s ease-in-out;
+      position: relative;
+      margin: 5px 5px 5px 0;
+  }
+
+  .footer-social a i:hover {
+      background: #29ca8e;
+      color: #ffffff;
+      border-radius: 100px;
+  }
+
+  #main-footer h3 {
+      color: #fff;
+  }
+
+  #main-footer a,
+  #main-footer p {
+      color: #909090;
+      text-decoration: none !important;
+  }
+
+  #main-footer a:hover {
+      color: #29ca8e;
+  }
+
+  .footer-nav li {
+      display: inline-block;
+  }
+
+  form .form-control {
+      background: transparent;
+      border-radius: 50px;
+  }
+
+  #main-footer .btn:hover {
+      background-color: #29ca8e;
+      color: #fff;
+      border-color: transparent;
+
+  }
+
+
+  @media (max-width: 768px) {
+
+
+      .rounded-circle {
+          border-radius: 50% !important;
+          width: 450px;
+          margin: 54px auto;
+      }
+
+      .navbar-brand {
+          margin: 20px;
+      }
+
+      .navbar-toggler {
+          margin: 20px;
+      }
+
+      body {
+          padding-top: 0;
+      }
+
+      .carousel-last .row {
+          flex-wrap: wrap;
+      }
+
+      .popular-carousel-controls {
+          display: none;
+      }
+  }
